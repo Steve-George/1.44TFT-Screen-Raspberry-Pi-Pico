@@ -499,5 +499,33 @@ def Display_ASCII8X16(x0, y0, s, Color):
                         
 lcd_initial()
 
-LCD_Clear(BLACK)
-Display_ASCII8X16(10,10,"Welcome", WHITE)
+while True: 
+    LCD_Clear(WHITE)
+    Display_ASCII8X16(32,25,"1.44 TFT", BLACK)
+    Display_ASCII8X16(16,50,"STEVE GEORGE", BLACK)
+    Display_ASCII8X16(24,75,"2022.10.05", BLACK)
+    time.sleep(1)
+
+    LCD_Clear(BLACK)
+    Display_ASCII8X16(32,25,"1.44 TFT", WHITE)
+    Display_ASCII8X16(16,50,"STEVE GEORGE", WHITE)
+    Display_ASCII8X16(24,75,"2022.10.05", WHITE)
+    time.sleep(1)
+
+    LCD_Clear(BLUE)
+    Display_ASCII8X16(32,25,"1.44 TFT", WHITE)
+    Display_ASCII8X16(16,50,"STEVE GEORGE", WHITE)
+    Display_ASCII8X16(24,75,"2022.10.05", WHITE)
+    time.sleep(1)
+
+    LCD_Clear(GREEN)
+    Display_ASCII8X16(32,25,"1.44 TFT", WHITE)
+    Display_ASCII8X16(16,50,"STEVE GEORGE", WHITE)
+    Display_ASCII8X16(24,75,"2022.10.05", WHITE)
+    time.sleep(1)
+    
+    LCD_Clear(RED)
+    Display_ASCII8X16(32,25,"1.44 TFT", BLACK)
+    Display_ASCII8X16(16,50,"STEVE GEORGE", BLACK)
+    Display_ASCII8X16(24,75,"2022.10.05", BLACK)
+    time.sleep(1)
