@@ -1,0 +1,1 @@
+某宝购入的1.44寸SPI接口彩色液晶屏，官方仅提供C语言版本示例。为了便于使用，使用MicroPython将其移植至Raspberry Pi Pico平台。代码中自带英文字库，可以显示ASCII字符。
